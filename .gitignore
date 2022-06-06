@@ -1,4 +1,7 @@
+*.gtkw
+*.out
 *.sconsign.dblite
+*.vcd
 abc.history
 hardware.asc
 hardware.bin
