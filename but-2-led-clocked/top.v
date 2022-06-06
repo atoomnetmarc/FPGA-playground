@@ -8,18 +8,12 @@ SPDX-License-Identifier: Apache-2.0
 `default_nettype none
 
 module top (
-    CLK,
-    BUT1,
-    BUT2,
-    LED1,
-    LED2
+    input  wire CLK,   //100Mhz clock
+    input  wire BUT1,
+    input  wire BUT2,
+    output wire LED1,
+    output wire LED2
 );
-
-  input wire CLK;  //100Mhz clock
-  input wire BUT1;
-  input wire BUT2;
-  output wire LED1;
-  output wire LED2;
 
   reg LED1_r;
   reg LED2_r;

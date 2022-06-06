@@ -8,16 +8,11 @@ SPDX-License-Identifier: Apache-2.0
 `default_nettype none
 
 module top (
-    BUT1,
-    BUT2,
-    LED1,
-    LED2
+    input  wire BUT1,
+    input  wire BUT2,
+    output wire LED1,
+    output wire LED2
 );
-
-  input wire BUT1;
-  input wire BUT2;
-  output wire LED1;
-  output wire LED2;
 
   assign LED1 = ~BUT1;
   assign LED2 = ~BUT2;
