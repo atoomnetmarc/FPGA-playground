@@ -1,0 +1,23 @@
+set_frequency clk 100
+set_io clk J3
+
+set_io d[0] C14
+set_io d[1] B15
+set_io d[2] D13
+set_io d[3] B14
+set_io d[4] C12
+set_io d[5] E11
+set_io d[6] C13
+set_io d[7] A16
+
+set_io q[0] A15
+set_io q[1] B13
+set_io q[2] E10
+set_io q[3] C11
+set_io q[4] D11
+set_io q[5] B12
+set_io q[6] B10
+set_io q[7] B11
+
+set_io -pullup yes sel[0] C3
+set_io -pullup yes sel[1] D3
