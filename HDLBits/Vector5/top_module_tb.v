@@ -1,3 +1,10 @@
+/*
+
+Copyright 2022 Marc Ketel
+SPDX-License-Identifier: Apache-2.0
+
+*/
+
 `timescale 1s / 100ms
 
 module top_module_tb ();
