@@ -1,0 +1,31 @@
+set_io out[0] C14
+set_io out[1] B15
+set_io out[2] D13
+set_io out[3] B14
+set_io out[4] C12
+set_io out[5] E11
+set_io out[6] C13
+set_io out[7] A16
+set_io out[8] A15
+set_io out[9] B13
+set_io out[10] E10
+set_io out[11] C11
+set_io out[12] D11
+set_io out[13] B12
+set_io out[14] B10
+set_io out[15] B11
+set_io out[16] C10
+set_io out[17] A10
+set_io out[18] A11
+set_io out[19] D10
+set_io out[20] C9
+set_io out[21] E9
+set_io out[22] D9
+set_io out[23] A9
+set_io out[24] F9
+
+set_io -pullup yes a C3
+set_io -pullup yes b D3
+set_io -pullup yes c E5
+set_io -pullup yes d D4
+set_io -pullup yes e B3
