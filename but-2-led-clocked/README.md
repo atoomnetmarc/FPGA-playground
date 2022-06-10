@@ -2,7 +2,7 @@
 
 Press button, light up LED. Only this is using a clock.
 
-![](netlist.svg)
+![](diagram.svg)
 
 # Requirements
 

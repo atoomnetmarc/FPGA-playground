@@ -2,7 +2,7 @@
 
 Press button, light up LED.
 
-![](netlist.svg)
+![](diagram.svg)
 
 # Requirements
 
