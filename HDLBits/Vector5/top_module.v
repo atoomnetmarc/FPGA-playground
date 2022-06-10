@@ -16,12 +16,8 @@ module top_module (
     output wire [24:0] out
 );
 
-  wire [4:0] signals = {a, b, c, d, e};
-
-  assign out[24:20] = ~({5{a}} ^ signals);
-  assign out[19:15] = ~({5{b}} ^ signals);
-  assign out[14:10] = ~({5{c}} ^ signals);
-  assign out[9:5]   = ~({5{d}} ^ signals);
-  assign out[4:0]   = ~({5{e}} ^ signals);
+  wire [24:0] signals_a = {{5{a}}, {5{b}}, {5{c}}, {5{d}}, {5{e}}};
+  wire [24:0] signals_b = {5{a, b, c, d, e}};
+  assign out = signals_a ~^ signals_b;
 
 endmodule
