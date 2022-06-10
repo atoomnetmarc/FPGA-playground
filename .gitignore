@@ -3,6 +3,9 @@
 *.sconsign.dblite
 *.vcd
 abc.history
+aig.json
 hardware.asc
 hardware.bin
 hardware.json
+netlist.json
+show.dot

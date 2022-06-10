@@ -11,6 +11,10 @@ Programmer: customized FT2232H board.
 I programmed the bitstream using a FT2232H board with wiring instructions from [Davide Berardi](https://cs.unibo.it/~davide.berardi6/post/20200604-1.html). To make my experience somewhat easier and let APIO recognize the serial chip I reprogrammed the FT2332 using [FT_PROG](https://ftdichip.com/utilities/#ft_prog) with the EEPROM contents from the [iCEstick](https://hedmen.org/icestorm-doc/icestorm.html#USB-communication).\
 Choose `iCE40-HX8K` as the board in APIO.
 
+Usefull tools:
+[graphviz](https://graphviz.readthedocs.io/en/stable/manual.html)\
+[netlistsvg](https://github.com/nturley/netlistsvg)
+
 # Links
 
 Dutch book [Programmeerbare logica van 0 en 1 tot FPGA](http://www.siliconvalleygarage.com/published-works/programmeerbare-logica.html) by [Vincent Himpe](http://www.siliconvalleygarage.com/about-me.html).\

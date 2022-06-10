@@ -2,6 +2,8 @@
 
 Press button, light up LED.
 
+![](netlist.svg)
+
 # Requirements
 
 iCE40HX8K-EVB board.
