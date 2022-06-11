@@ -1,3 +1,4 @@
+*.dot
 *.gtkw
 *.out
 *.sconsign.dblite
@@ -8,4 +9,3 @@ hardware.asc
 hardware.bin
 hardware.json
 netlist.json
-show.dot
