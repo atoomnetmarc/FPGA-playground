@@ -1,0 +1,100 @@
+set_io -pullup yes sub B6
+
+set_io -pullup yes a[0] C14
+set_io -pullup yes a[1] B15
+set_io -pullup yes a[2] D13
+set_io -pullup yes a[3] B14
+set_io -pullup yes a[4] C12
+set_io -pullup yes a[5] E11
+set_io -pullup yes a[6] C13
+set_io -pullup yes a[7] A16
+set_io -pullup yes a[8] A15
+set_io -pullup yes a[9] B13
+set_io -pullup yes a[10] E10
+set_io -pullup yes a[11] C11
+set_io -pullup yes a[12] D11
+set_io -pullup yes a[13] B12
+set_io -pullup yes a[14] B10
+set_io -pullup yes a[15] B11
+set_io -pullup yes a[16] C10
+set_io -pullup yes a[17] A10
+set_io -pullup yes a[18] A11
+set_io -pullup yes a[19] D10
+set_io -pullup yes a[20] C9
+set_io -pullup yes a[21] E9
+set_io -pullup yes a[22] D9
+set_io -pullup yes a[23] A9
+set_io -pullup yes a[24] F9
+set_io -pullup yes a[25] F7
+set_io -pullup yes a[26] B9
+set_io -pullup yes a[27] D8
+set_io -pullup yes a[28] B8
+set_io -pullup yes a[29] A7
+set_io -pullup yes a[30] C7
+set_io -pullup yes a[31] B7
+
+set_io -pullup yes b[0] R14
+set_io -pullup yes b[1] R15
+set_io -pullup yes b[2] P14
+set_io -pullup yes b[3] P15
+set_io -pullup yes b[4] P16
+set_io -pullup yes b[5] M13
+set_io -pullup yes b[6] M14
+set_io -pullup yes b[7] L12
+set_io -pullup yes b[8] N16
+set_io -pullup yes b[9] L13
+set_io -pullup yes b[10] L14
+set_io -pullup yes b[11] K12
+set_io -pullup yes b[12] M16
+set_io -pullup yes b[13] J10
+set_io -pullup yes b[14] M15
+set_io -pullup yes b[15] J11
+set_io -pullup yes b[16] L16
+set_io -pullup yes b[17] K13
+set_io -pullup yes b[18] K14
+set_io -pullup yes b[19] J15
+set_io -pullup yes b[20] K15
+set_io -pullup yes b[21] K16
+set_io -pullup yes b[22] J14
+set_io -pullup yes b[23] J12
+set_io -pullup yes b[24] J13
+set_io -pullup yes b[25] H13
+set_io -pullup yes b[26] H11
+set_io -pullup yes b[27] H16
+set_io -pullup yes b[28] H14
+set_io -pullup yes b[29] G16
+set_io -pullup yes b[30] H12
+set_io -pullup yes b[31] G15
+
+set_io sum[0] E4
+set_io sum[1] B2
+set_io sum[2] F5
+set_io sum[3] B1
+set_io sum[4] C1
+set_io sum[5] C2
+set_io sum[6] F4
+set_io sum[7] D2
+set_io sum[8] G5
+set_io sum[9] D1
+set_io sum[10] G4
+set_io sum[11] E3
+set_io sum[12] H5
+set_io sum[13] E2
+set_io sum[14] G3
+set_io sum[15] F3
+set_io sum[16] H3
+set_io sum[17] F2
+set_io sum[18] H6
+set_io sum[19] F1
+set_io sum[20] H4
+set_io sum[21] G2
+set_io sum[22] J4
+set_io sum[23] H2
+set_io sum[24] J5
+set_io sum[25] N4
+set_io sum[26] R1
+set_io sum[27] M5
+set_io sum[28] P2
+set_io sum[29] M4
+set_io sum[30] P1
+set_io sum[31] N3
