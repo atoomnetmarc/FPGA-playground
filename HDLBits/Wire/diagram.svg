@@ -13,12 +13,6 @@
 <!-- n1 -->
 <g id="node1" class="node">
 <title>n1</title>
-<polygon fill="none" stroke="black" points="234,-33.54 234,-48.46 218.18,-59 195.82,-59 180,-48.46 180,-33.54 195.82,-23 218.18,-23 234,-33.54"/>
-<text text-anchor="middle" x="207" y="-37.3" font-family="Times New Roman,serif" font-size="14.00">out</text>
-</g>
-<!-- n2 -->
-<g id="node2" class="node">
-<title>n2</title>
 <polygon fill="none" stroke="black" points="54,-33.54 54,-48.46 38.18,-59 15.82,-59 0,-48.46 0,-33.54 15.82,-23 38.18,-23 54,-33.54"/>
 <text text-anchor="middle" x="27" y="-37.3" font-family="Times New Roman,serif" font-size="14.00">in</text>
 </g>
@@ -28,17 +22,23 @@
 <path fill="none" stroke="black" d="M132,-59C132,-59 102,-59 102,-59 96,-59 90,-53 90,-47 90,-47 90,-35 90,-35 90,-29 96,-23 102,-23 102,-23 132,-23 132,-23 138,-23 144,-29 144,-35 144,-35 144,-47 144,-47 144,-53 138,-59 132,-59"/>
 <text text-anchor="middle" x="117" y="-37.3" font-family="Times New Roman,serif" font-size="14.00">BUF</text>
 </g>
-<!-- n2&#45;&gt;x0 -->
-<g id="edge2" class="edge">
-<title>n2:e&#45;&gt;x0:w</title>
-<path fill="none" stroke="#1b9e77" d="M54,-41C66,-41 71.25,-41 79.88,-41"/>
-<polygon fill="#1b9e77" stroke="#1b9e77" points="80,-44.5 90,-41 80,-37.5 80,-44.5"/>
-</g>
-<!-- x0&#45;&gt;n1 -->
+<!-- n1&#45;&gt;x0 -->
 <g id="edge1" class="edge">
-<title>x0:e&#45;&gt;n1:w</title>
-<path fill="none" stroke="#66a61e" d="M144,-41C156,-41 161.25,-41 169.88,-41"/>
-<polygon fill="#66a61e" stroke="#66a61e" points="170,-44.5 180,-41 170,-37.5 170,-44.5"/>
+<title>n1:e&#45;&gt;x0:w</title>
+<path fill="none" stroke="#66a61e" d="M54,-41C66,-41 71.25,-41 79.88,-41"/>
+<polygon fill="#66a61e" stroke="#66a61e" points="80,-44.5 90,-41 80,-37.5 80,-44.5"/>
+</g>
+<!-- n2 -->
+<g id="node2" class="node">
+<title>n2</title>
+<polygon fill="none" stroke="black" points="234,-33.54 234,-48.46 218.18,-59 195.82,-59 180,-48.46 180,-33.54 195.82,-23 218.18,-23 234,-33.54"/>
+<text text-anchor="middle" x="207" y="-37.3" font-family="Times New Roman,serif" font-size="14.00">out</text>
+</g>
+<!-- x0&#45;&gt;n2 -->
+<g id="edge2" class="edge">
+<title>x0:e&#45;&gt;n2:w</title>
+<path fill="none" stroke="#1b9e77" d="M144,-41C156,-41 161.25,-41 169.88,-41"/>
+<polygon fill="#1b9e77" stroke="#1b9e77" points="170,-44.5 180,-41 170,-37.5 170,-44.5"/>
 </g>
 </g>
 </svg>

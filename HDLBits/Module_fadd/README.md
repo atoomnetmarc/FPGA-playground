@@ -1,6 +1,5 @@
 https://hdlbits.01xz.net/wiki/Module_fadd
 
-![](add16.svg)
 ![](diagram.svg)
 
 # Requirements

@@ -2,6 +2,8 @@
 
 Press button, light up LED, but with blocking and non-blocking assignments.
 
+![](blocking.svg)
+![](nonblocking.svg)
 ![](diagram.svg)
 
 ![](waves.png)
