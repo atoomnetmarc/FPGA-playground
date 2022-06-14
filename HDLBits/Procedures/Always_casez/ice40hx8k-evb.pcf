@@ -1,0 +1,13 @@
+set_io -pullup yes in[0] C14
+set_io -pullup yes in[1] B15
+set_io -pullup yes in[2] D13
+set_io -pullup yes in[3] B14
+set_io -pullup yes in[4] C12
+set_io -pullup yes in[5] A16
+set_io -pullup yes in[6] A15
+set_io -pullup yes in[7] E10
+
+set_io pos[0] E4
+set_io pos[1] B2
+set_io pos[2] F5
+
