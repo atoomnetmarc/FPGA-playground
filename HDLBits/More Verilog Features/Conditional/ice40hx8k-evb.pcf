@@ -1,0 +1,45 @@
+set_io -pullup yes a[0] C14
+set_io -pullup yes a[1] B15
+set_io -pullup yes a[2] D13
+set_io -pullup yes a[3] B14
+set_io -pullup yes a[4] C12
+set_io -pullup yes a[5] A16
+set_io -pullup yes a[6] A15
+set_io -pullup yes a[7] E10
+
+set_io -pullup yes b[0] C11
+set_io -pullup yes b[1] D11
+set_io -pullup yes b[2] B12
+set_io -pullup yes b[3] B10
+set_io -pullup yes b[4] B11
+set_io -pullup yes b[5] C10
+set_io -pullup yes b[6] A10
+set_io -pullup yes b[7] D10
+
+set_io -pullup yes c[0] C9
+set_io -pullup yes c[1] E9
+set_io -pullup yes c[2] D9
+set_io -pullup yes c[3] A9
+set_io -pullup yes c[4] F9
+set_io -pullup yes c[5] B9
+set_io -pullup yes c[6] D8
+set_io -pullup yes c[7] B8
+
+set_io -pullup yes d[0] A7
+set_io -pullup yes d[1] C7
+set_io -pullup yes d[2] B7
+set_io -pullup yes d[3] B6
+set_io -pullup yes d[4] C6
+set_io -pullup yes d[5] D7
+set_io -pullup yes d[6] A6
+set_io -pullup yes d[7] D6
+
+set_io min[0] A5
+set_io min[1] B5
+set_io min[2] E6
+set_io min[3] B4
+set_io min[4] A2
+set_io min[5] D5
+set_io min[6] A1
+set_io min[7] C5
+
