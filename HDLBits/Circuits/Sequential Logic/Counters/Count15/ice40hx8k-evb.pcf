@@ -1,0 +1,8 @@
+set_frequency clk 100
+
+set_io clk J3
+set_io reset K11
+set_io q[0] R14
+set_io q[1] R15
+set_io q[2] P14
+set_io q[3] P15
