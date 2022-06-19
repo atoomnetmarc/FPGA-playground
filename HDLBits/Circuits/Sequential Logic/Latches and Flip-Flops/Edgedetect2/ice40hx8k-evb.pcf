@@ -1,0 +1,21 @@
+set_frequency clk 100
+
+set_io clk J3
+
+set_io -pullup yes in[0] C14
+set_io -pullup yes in[1] B15
+set_io -pullup yes in[2] D13
+set_io -pullup yes in[3] B14
+set_io -pullup yes in[4] C12
+set_io -pullup yes in[5] E11
+set_io -pullup yes in[6] C13
+set_io -pullup yes in[7] A16
+
+set_io anyedge[0] R14
+set_io anyedge[1] R15
+set_io anyedge[2] P14
+set_io anyedge[3] P15
+set_io anyedge[4] P16
+set_io anyedge[5] M13
+set_io anyedge[6] M14
+set_io anyedge[7] L12
