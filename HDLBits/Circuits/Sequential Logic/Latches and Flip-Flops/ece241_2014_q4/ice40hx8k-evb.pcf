@@ -1,0 +1,6 @@
+set_frequency clk 100
+
+set_io clk J3
+set_io -pullup yes x B15
+
+set_io z E4
