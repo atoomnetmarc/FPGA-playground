@@ -1,0 +1,70 @@
+set_frequency clk 100
+
+set_io clk J3
+set_io reset K11
+
+set_io -pullup yes in[0] C14
+set_io -pullup yes in[1] B15
+set_io -pullup yes in[2] D13
+set_io -pullup yes in[3] B14
+set_io -pullup yes in[4] C12
+set_io -pullup yes in[5] E11
+set_io -pullup yes in[6] C13
+set_io -pullup yes in[7] A16
+set_io -pullup yes in[8] A15
+set_io -pullup yes in[9] B13
+set_io -pullup yes in[10] E10
+set_io -pullup yes in[11] C11
+set_io -pullup yes in[12] D11
+set_io -pullup yes in[13] B12
+set_io -pullup yes in[14] B10
+set_io -pullup yes in[15] B11
+set_io -pullup yes in[16] C10
+set_io -pullup yes in[17] A10
+set_io -pullup yes in[18] A11
+set_io -pullup yes in[19] D10
+set_io -pullup yes in[20] C9
+set_io -pullup yes in[21] E9
+set_io -pullup yes in[22] D9
+set_io -pullup yes in[23] A9
+set_io -pullup yes in[24] F9
+set_io -pullup yes in[25] F7
+set_io -pullup yes in[26] B9
+set_io -pullup yes in[27] D8
+set_io -pullup yes in[28] B8
+set_io -pullup yes in[29] A7
+set_io -pullup yes in[30] C7
+set_io -pullup yes in[31] B7
+
+set_io out[0] E4
+set_io out[1] B2
+set_io out[2] F5
+set_io out[3] B1
+set_io out[4] C1
+set_io out[5] C2
+set_io out[6] F4
+set_io out[7] D2
+set_io out[8] G5
+set_io out[9] D1
+set_io out[10] G4
+set_io out[11] E3
+set_io out[12] H5
+set_io out[13] E2
+set_io out[14] G3
+set_io out[15] F3
+set_io out[16] H3
+set_io out[17] F2
+set_io out[18] H6
+set_io out[19] F1
+set_io out[20] H4
+set_io out[21] G2
+set_io out[22] J4
+set_io out[23] H2
+set_io out[24] J5
+set_io out[25] N4
+set_io out[26] R1
+set_io out[27] M5
+set_io out[28] P2
+set_io out[29] M4
+set_io out[30] P1
+set_io out[31] N3
