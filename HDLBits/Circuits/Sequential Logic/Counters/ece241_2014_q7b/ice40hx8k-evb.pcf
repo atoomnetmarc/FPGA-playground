@@ -1,0 +1,9 @@
+set_frequency clk 100
+
+set_io clk J3
+set_io reset K11
+set_io OneHertz G5
+
+set_io c_enable[0] E4
+set_io c_enable[1] B2
+set_io c_enable[2] F5
