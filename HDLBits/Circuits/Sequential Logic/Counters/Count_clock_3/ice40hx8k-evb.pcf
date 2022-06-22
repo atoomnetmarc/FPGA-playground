@@ -1,0 +1,34 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io reset K11
+set_io ena E4
+set_io pm B2
+
+set_io hh[0] C14
+set_io hh[1] B15
+set_io hh[2] D13
+set_io hh[3] B14
+set_io hh[4] C12
+set_io hh[5] E11
+set_io hh[6] C13
+set_io hh[7] A16
+
+set_io mm[0] A15
+set_io mm[1] B13
+set_io mm[2] E10
+set_io mm[3] C11
+set_io mm[4] D11
+set_io mm[5] B12
+set_io mm[6] B10
+set_io mm[7] B11
+
+set_io ss[0] C10
+set_io ss[1] A10
+set_io ss[2] A11
+set_io ss[3] D10
+set_io ss[4] C9
+set_io ss[5] E9
+set_io ss[6] D9
+set_io ss[7] A9
+
