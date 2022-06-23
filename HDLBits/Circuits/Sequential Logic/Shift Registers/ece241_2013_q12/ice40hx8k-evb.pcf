@@ -1,0 +1,10 @@
+set_frequency clk 100
+
+set_io clk J3
+set_io enable E4
+set_io S B2
+set_io A F5
+
+set_io B B1
+set_io C C1
+set_io Z C2
