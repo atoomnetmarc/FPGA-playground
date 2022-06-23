@@ -1,0 +1,13 @@
+set_frequency KEY[0] 100
+
+set_io KEY[0] J3
+set_io KEY[1] K11
+
+set_io SW[0] C14
+set_io SW[1] B15
+set_io SW[2] D13
+
+set_io LEDR[0] B14
+set_io LEDR[1] C12
+set_io LEDR[2] E11
+
