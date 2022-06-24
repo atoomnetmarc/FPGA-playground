@@ -1,0 +1,11 @@
+set_frequency in 1
+
+set_io in J3
+
+set_io state[0] E4
+set_io state[1] B2
+
+set_io next_state[0] F5
+set_io next_state[1] B1
+
+set_io out C1

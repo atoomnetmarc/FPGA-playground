@@ -1,5 +1,6 @@
 *.dot
 *.gtkw
+!translatefilter-*.gtkw
 *.out
 *.sconsign.dblite
 *.vcd
