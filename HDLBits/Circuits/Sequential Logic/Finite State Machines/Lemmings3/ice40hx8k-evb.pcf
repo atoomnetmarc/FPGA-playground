@@ -1,0 +1,12 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io areset E4
+set_io bump_left B2
+set_io bump_right F5
+set_io walk_left B1
+set_io walk_right C1
+set_io ground C2
+set_io aaah F4
+set_io dig D2
+set_io digging G5
