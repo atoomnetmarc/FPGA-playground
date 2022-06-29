@@ -1,0 +1,13 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io in[0] E4
+set_io in[1] B2
+set_io in[2] F5
+set_io in[3] B1
+set_io in[4] C1
+set_io in[5] C2
+set_io in[6] F4
+set_io in[7] D2
+set_io reset G5
+set_io done D1
