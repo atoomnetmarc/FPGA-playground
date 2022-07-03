@@ -1,4 +1,5 @@
 *.dot
+!statemachine.dot
 *.gtkw
 !translatefilter-*.gtkw
 *.out

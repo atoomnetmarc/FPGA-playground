@@ -1,0 +1,20 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET
+    node [shape = circle];
+    IDLE [label = "IDLE\nwait for idle"];
+    STOP [label = "STOP\ndone=1\nbits=0"];
+    START [label = "START\nbits=0\nwait for start bit"];
+    DATA [label = "DATA\nbits++\nreceive bits"];
+    rankdir=LR;
+
+    RESET -> START [label = "reset"];
+    IDLE -> IDLE [label = "in==0"];
+    IDLE -> START [label = "in==1"];
+    START -> START [label = "in==1"];
+    START -> DATA [label = "in==0"];
+    DATA -> DATA [label = "bits<8"];
+    DATA -> STOP [label = "bits==8,in==1"];
+    DATA -> IDLE [label = "bits==8,in==0 (stop bit wrong)"];
+    STOP -> DATA [label = "in==0"];
+    STOP -> START [label = "in==1 (start bit wrong)"];
+}
