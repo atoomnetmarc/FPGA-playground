@@ -1,9 +1,9 @@
 https://hdlbits.01xz.net/wiki/Exams/ece241_2013_q8
 
-Mealy Finite State machine, x/z:\
+Mealy Finite State Machine, x/z:\
 ![](statemachine.svg)
 
-Diagram:\n
+Diagram:\
 ![](diagram.svg)
 
 # Requirements

@@ -1,6 +1,6 @@
 https://hdlbits.01xz.net/wiki/Fsm_serialdata
 
-State machine:\
+Moore Finite State Machine:\
 ![](statemachine.svg)
 
 # Requirements

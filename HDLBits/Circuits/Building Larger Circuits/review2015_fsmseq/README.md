@@ -1,6 +1,6 @@
 https://hdlbits.01xz.net/wiki/Exams/review2015_fsmseq
 
-Diagram:\n
+Diagram:\
 ![](diagram.svg)
 
 # Requirements

@@ -2,7 +2,7 @@ https://hdlbits.01xz.net/wiki/Fsm_serialdp
 
 Note: by hdlbits provided `parity` module not used.
 
-State machine:\
+Moore Finite State Machine:\
 ![](statemachine.svg)
 
 # Requirements
