@@ -1,0 +1,8 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io reset E4
+set_io in B2
+set_io disc F5
+set_io flag B1
+set_io err C1
