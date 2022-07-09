@@ -1,0 +1,16 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET;
+    node [shape = circle];
+    A [label = "A\nz=0"];
+    B [label = "B\nz=1"];
+    C [label = "C\nz=0"];
+    rankdir=LR;
+
+    RESET -> A [label = "areset"];
+    A -> A [label = "x==0"];
+    A -> B [label = "x==1"];
+    B -> C [label = "x==1"];
+    B -> B [label = "x==0"];
+    C -> B [label = "x==0"];
+    C -> C [label = "x==1"];
+}
