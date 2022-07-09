@@ -1,0 +1,19 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET
+    node [shape = circle];
+    011 [label = "011\nz=1"];
+    100 [label = "100\nz=1"];
+    rankdir=LR;
+
+    RESET -> 000 [label = "reset"];
+    000 -> 000 [label = "x==0"];
+    000 -> 001 [label = "x==1"];
+    001 -> 001 [label = "x==0"];
+    001 -> 100 [label = "x==1"];
+    010 -> 010 [label = "x==0"];
+    010 -> 001 [label = "x==1"];
+    011 -> 001 [label = "x==0"];
+    011 -> 010 [label = "x==1"];
+    100 -> 011 [label = "x==0"];
+    100 -> 100 [label = "x==1"];
+}
