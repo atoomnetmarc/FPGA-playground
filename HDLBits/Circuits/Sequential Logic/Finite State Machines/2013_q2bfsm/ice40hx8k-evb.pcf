@@ -1,0 +1,8 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io resetn E4
+set_io x B2
+set_io y F5
+set_io f B1
+set_io g C1

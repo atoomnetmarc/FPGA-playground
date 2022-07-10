@@ -1,0 +1,27 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET
+    node [shape = circle];
+    F [label = "F\nf=1"];
+    G [label = "G\ng=1"];
+    Y1 [label = "Y1\ng=1"];
+    GP0 [label = "GP0\ng=0"];
+    GP1 [label = "GP1\ng=1"];
+    rankdir=LR;
+
+    RESET -> A [label = "resetn"];
+    A -> F;
+    F -> X0;
+    X0 -> X1 [label = "x==1"];
+    X1 -> X2 [label = "x==0"];
+    X2 -> G [label = "x==1"];
+    G -> Y1 [label = "y==0"];
+    G -> GP1 [label = "y==1"];
+    Y1 -> GP0 [label = "y==0"];
+    Y1 -> GP1 [label = "y==1"];
+    GP0 -> GP0;
+    GP1 -> GP1;
+
+    X0 -> X0 [label = "x==0", color = red];
+    X1 -> X1 [label = "x==1", color = red];
+    X2 -> X0 [label = "x==0", color = red];
+}
