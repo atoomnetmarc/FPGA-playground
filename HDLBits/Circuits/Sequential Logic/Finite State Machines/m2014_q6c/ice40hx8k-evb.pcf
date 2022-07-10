@@ -1,0 +1,9 @@
+set_io y[1] B2
+set_io y[2] F5
+set_io y[3] B1
+set_io y[4] C1
+set_io y[5] C2
+set_io y[6] F4
+set_io w D2
+set_io Y2 G5
+set_io Y4 D1
