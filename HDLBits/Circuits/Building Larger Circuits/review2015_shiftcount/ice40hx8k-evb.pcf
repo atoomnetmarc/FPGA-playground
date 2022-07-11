@@ -1,0 +1,10 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io shift_ena E4
+set_io count_ena B2
+set_io data F5
+set_io q[0] B1
+set_io q[1] C1
+set_io q[2] C2
+set_io q[3] F4
