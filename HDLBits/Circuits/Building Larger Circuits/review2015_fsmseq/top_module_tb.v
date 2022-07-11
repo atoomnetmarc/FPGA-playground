@@ -20,12 +20,15 @@ module top_module_tb ();
   end
 
   always begin
-    #10 data = $random;
-  end
-
-  always begin
-    #100 reset = 1'b1;
-    #10 reset = 1'b0;
+    #1;
+    #105 reset = 1'b1;
+    #15 reset = 1'b0;
+    #10 data = 1'b1;
+    #30 data = 1'b0;
+    #10 data = 1'b1;
+    #20 data = 1'b0;
+    #20 data = 1'b1;
+    #9;
   end
 
   top_module uut (

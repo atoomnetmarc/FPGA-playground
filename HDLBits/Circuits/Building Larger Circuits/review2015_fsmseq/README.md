@@ -1,5 +1,8 @@
 https://hdlbits.01xz.net/wiki/Exams/review2015_fsmseq
 
+Moore Finite State Machine:\
+![](statemachine.svg)
+
 Diagram:\
 ![](diagram.svg)
 
@@ -10,7 +13,7 @@ iCE40HX8K-EVB board.
 # Device utilisation
 
 ```
- ICESTORM_LC:     8/ 7680     0%
+ ICESTORM_LC:     7/ 7680     0%
 ICESTORM_RAM:     0/   32     0%
        SB_IO:     4/  256     1%
        SB_GB:     1/    8    12%

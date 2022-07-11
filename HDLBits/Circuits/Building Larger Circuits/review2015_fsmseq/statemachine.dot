@@ -1,0 +1,17 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET
+    node [shape = circle];
+    F0 [label = "F0\nstart_shifting=1"];
+    rankdir=LR;
+
+    RESET -> X0 [label = "reset"];
+    X0 -> X1 [label = "x==1", color = "green"];
+    X0 -> X0 [label = "x==0", color = "red"];
+    X1 -> X2 [label = "x==1", color = "green"];
+    X1 -> X0 [label = "x==0", color = "red"];
+    X2 -> X2 [label = "x==1", color = "red"];
+    X2 -> X3 [label = "x==0", color = "green"];
+    X3 -> F0 [label = "x==1", color = "green"];
+    X3 -> X0 [label = "x==0", color = "red"];
+    F0 -> F0;
+}
