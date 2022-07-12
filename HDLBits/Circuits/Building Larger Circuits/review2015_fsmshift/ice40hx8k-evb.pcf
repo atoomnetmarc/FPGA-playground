@@ -1,0 +1,5 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io reset E4
+set_io shift_ena B2

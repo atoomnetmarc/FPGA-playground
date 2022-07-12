@@ -1,0 +1,16 @@
+digraph finite_state_machine {
+    node [shape = point ]; RESET
+    node [shape = circle];
+    C1 [label="C1\nshift_ena=1"];
+    C2 [label="C2\nshift_ena=1"];
+    C3 [label="C3\nshift_ena=1"];
+    C4 [label="C4\nshift_ena=1"];
+    rankdir=LR;
+
+    RESET -> C1 [label = "reset"];
+    C1 -> C2;
+    C2 -> C3;
+    C3 -> C4;
+    C4 -> OFF;
+    OFF -> OFF;
+}
