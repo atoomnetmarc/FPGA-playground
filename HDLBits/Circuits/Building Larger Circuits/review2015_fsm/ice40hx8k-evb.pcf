@@ -1,0 +1,10 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io reset E4
+set_io data B2
+set_io shift_ena F5
+set_io counting B1
+set_io done_counting C1
+set_io done C2
+set_io ack F4
