@@ -1,0 +1,22 @@
+set_io state[0] E4
+set_io state[1] B2
+set_io state[2] F5
+set_io state[3] B1
+set_io state[4] C1
+set_io state[5] C2
+set_io state[6] F4
+set_io state[7] D2
+set_io state[8] G5
+set_io state[9] D1
+
+set_io d E3
+set_io done_counting H5
+set_io ack E2
+set_io B3_next G3
+set_io S_next F3
+set_io S1_next H3
+set_io Count_next F2
+set_io Wait_next H6
+set_io done F1
+set_io counting H4
+set_io shift_ena G2
