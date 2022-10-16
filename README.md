@@ -1,6 +1,6 @@
 # Why?
 
-This repository contains random collection of FPGA related stuff as a result of trying to lean Verilog.
+This repository contains a random collection of FPGA related stuff as a result of trying to learn Verilog.
 
 Hardware: [Olimex iCE40HX8K-EVB](https://www.olimex.com/Products/FPGA/iCE40/iCE40HX8K-EVB/open-source-hardware) board.
 
