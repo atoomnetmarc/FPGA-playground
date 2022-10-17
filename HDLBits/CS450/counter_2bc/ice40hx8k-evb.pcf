@@ -1,0 +1,8 @@
+set_frequency clk 1
+
+set_io clk J3
+set_io areset G4
+set_io train_valid E3
+set_io train_taken E4
+set_io state[0] B2
+set_io state[1] F5
