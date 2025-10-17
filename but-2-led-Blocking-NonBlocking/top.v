@@ -36,7 +36,7 @@ module blocking (
   reg b1, b2, b3;
 
   /*
-  Blocking assignments will have the effect that it will execute after each other. In this example that means that b3 has the same value as BUT after 1 clock cyle. It creates combinatory logic.
+  Blocking assignments will have the effect that it will execute after each other. In this example that means that b3 has the same value as BUT after 1 clock cycle. It creates combinatory logic.
   */
   always @(posedge CLK) begin
     b1 = BUT;
